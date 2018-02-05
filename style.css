@@ -1,0 +1,21 @@
+/* Stylesheet by Christopher Yarbrough
+	January 28th, 2018 */
+
+
+/* General Styling */
+h1, h2, h3, h4, h5, h6 {
+	font-family: Courier-New, Courier;
+	font-style: bold;
+	text-align: center;
+	color: white;
+}
+p {
+	font-family: Courier-New, Courier;
+}
+body {
+	background-image: url("img/tpbg.jpg");
+}
+
+.alert {
+	
+}
