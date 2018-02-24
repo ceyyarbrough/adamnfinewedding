@@ -14,8 +14,7 @@ p {
 }
 body {
 	background-image: url("img/bg-1.png");
-	height: 1000px;
-	width: 1000px;
+	background-size: 100% 100%;
 }
 
 .alert {
