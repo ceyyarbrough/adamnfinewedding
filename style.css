@@ -25,8 +25,8 @@ section {
 }
 
 .first {
-	background-image: url("img/bg-1.jpg");
-	height: 100vh;
+	background-image: url("img/bg-1.png");
+	height: 100px;
 }
 
 .content {
