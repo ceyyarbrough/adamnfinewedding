@@ -137,3 +137,12 @@ figure.pic11 {
   -webkit-transform: scale(1.1,1.1);
   z-index: 20;
 }
+
+/* Content 3 */
+
+.bcontentimg {
+	position: Center;
+	display: inline-block;
+	width: 200px;
+	height: 200px;
+}
