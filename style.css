@@ -29,6 +29,11 @@ section {
 	height: 100vh;
 }
 
+.third {
+	background-image: url("img/greatNorthern.jpg");
+	height: 100vh;
+}
+
 .content {
   display: table-cell;
   vertical-align: middle;
