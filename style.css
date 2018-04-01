@@ -1,6 +1,42 @@
 /* Stylesheet by Christopher Yarbrough
 	January 28th, 2018 */
+* {
+  box-sizing: border-box; 
+}
 
+body {
+	margin: 0; 
+	color: white;
+	/*background-image: url("img/tpbg.jpg");*/
+}
+
+section {
+  width: 100%;
+  padding: 0 7%;
+  display: table;
+  margin: 0;
+  max-width: none;
+  background-color: #3d191b;
+  height: 100vh;
+  
+  &:nth-of-type(2n) {
+    background-color: #FE4B74;
+  }
+}
+
+.first {
+	background-image: url("img/tpbg.jpg");
+	height: 100vh;
+}
+
+.content {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.alert {
+	
+}
 
 /* General Styling */
 h1, h2, h3, h4, h5, h6 {
@@ -8,12 +44,20 @@ h1, h2, h3, h4, h5, h6 {
 	font-style: bold;
 	text-align: center;
 	color: white;
+	padding: 1% 2%;
+}
+a {
+	font-family: Verdana; 
+	color: white;
+	text-align: center;
+	text-decoration: none;
+	padding: 1% 2%;
+
+    &:hover{ 
+        opacity: 0.8;
+    }
+
 }
 p {
 	font-family: Courier-New, Courier;
-}
-body {
-	background-image: url("img/bg-1.png");
-	background-size: 100% 500%;
-	background-repeat: no-repeat;
 }
