@@ -80,6 +80,22 @@
         		<br>
         		<br>
         		<p>Enter your name and email address below to let us know whether or not you can attend.</p>
+                
+                    <form class="reserve-form">
+                        <p> First Name </p>
+                        <input type="text" id="firstname">
+                        <p> Last Name </p>
+                        <input type ="text" id="lastname">
+                        <p>How many in your party (Not including you)</p>
+                        <input type ="radio" id="numparty" value"Solo"> Solo
+                        <input type ="radio" id="numparty" value"1"> 1
+                        <input type ="radio" id="numparty" value"2"> 2
+                        <input type ="radio" id="numparty" value"3"> 3
+                        <p>Email Address (for updates)</p>
+                        <input type ="text" id="emailAddress">
+                    </form>
+                
+                <button onclick="getInputs();">Let Us Know!</button>
         </div>
         	
         		
