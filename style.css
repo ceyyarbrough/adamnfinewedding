@@ -28,6 +28,7 @@ section {
 .third {
 	background-image: url("img/greatNorthern.jpg");
 	height: 100vh;
+	background-repeat: repeat-x;
 }
 
 .content {
@@ -145,13 +146,17 @@ figure.pic11 {
 	display: inline-block;
 	width: 200px;
 	height: 200px;
-	margin-left: 10px;
-	margin-right: 10px;
+	margin: 10px;
 }
 
 .footer-text {
 	color: white;
 	
+}
+
+.footer-logo {
+	height: 30px;
+	width: 150px;
 }
 
 footer {
