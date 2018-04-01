@@ -18,10 +18,6 @@ section {
   max-width: none;
   background-color: #3d191b;
   height: 100vh;
-  
-  &:nth-of-type(2n) {
-    background-color: #FE4B74;
-  }
 }
 
 .first {
