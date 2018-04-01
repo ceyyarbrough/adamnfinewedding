@@ -145,4 +145,10 @@ figure.pic11 {
 	display: inline-block;
 	width: 200px;
 	height: 200px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.footer-text {
+	color: black;
 }
