@@ -141,7 +141,6 @@ figure.pic11 {
 /* Content 3 */
 
 .bcontentimg {
-	position: Center;
 	display: inline-block;
 	width: 200px;
 	height: 200px;
@@ -150,5 +149,10 @@ figure.pic11 {
 }
 
 .footer-text {
-	color: black;
+	color: white;
+	
+}
+
+footer {
+	background-color: black;
 }
