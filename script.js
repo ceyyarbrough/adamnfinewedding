@@ -1,5 +1,3 @@
-import System.IO;
-
 var customerName = prompt("Who killed Laura Palmer? ", "");
 if (customerName!= null) {
     document.getElementById("welcome").innerHTML = "<h1>Hello " + customerName + "!</h1>"
@@ -14,13 +12,15 @@ function getInputs() {
 	var lastname = document.getElementByID('lastname').value;
 	var numparty = document.getElementByID('numparty').value;
 
+	var txtFile = "userInput.txt";
+	var file = new File(txtFile);
 
-	function sendInput(firstname, lastname, numparty){
-		var Scr = new ActiveXObject("Scripting.FileSystemObject");
-		var CTF = Scr.CreateTextFile("userInput.txt");
-		CTF.WriteLine(firstname, lastname, numparty);
-		CTF.Close();
-	}
+	file.open("w"); // open file with write access
+	file.writeln("First line of text");
+	file.writeln("Second line of text " + firstname);
+	file.close();
+
+	
 
 }
 
