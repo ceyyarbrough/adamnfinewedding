@@ -479,6 +479,7 @@ nav ul li {
 }
 .rsvp {
 }
+<<<<<<< HEAD
 .location-text {
 }
 .rsvp-style {
@@ -507,3 +508,74 @@ nav ul li {
 
 /* Pop-up form */
 
+=======
+
+div#background {
+}
+
+div#gallery {
+  width: 90%;
+  margin: auto;
+}
+
+
+#background img {
+  height: 134px;
+  margin: 0px;
+}
+
+#background figure {
+  float: left;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  color: black;
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 1px 2px 3px black;
+}
+
+figure.pic1 {
+  z-index: 1;
+}
+
+figure.pic2 {
+  z-index: 2;
+}
+
+figure.pic3 {
+  z-index: 1;
+}
+
+figure.pic4 {
+  z-index:1;
+}
+
+figure.pic5 {
+  z-index:1;
+}
+
+figure.pic6 {
+  z-index:1;
+}
+
+figure.pic7 {
+  z-index:1;
+}
+
+figure.pic8 {
+  z-index:1;
+}
+
+figure.pic9 {
+  z-index:1;
+}
+
+
+#background figure:hover {
+  box-shadow: 5px 10px 100px black;
+  -webkit-transform: scale(1.1,1.1);
+  z-index: 20;
+}
+>>>>>>> 2ed15d58d130e71f954619e834e61d935190cad1
