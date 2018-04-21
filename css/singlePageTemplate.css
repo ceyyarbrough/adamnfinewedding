@@ -494,21 +494,25 @@ nav ul li {
 }
 
 .rsvp-button {
+	width: 250px;
+	height: 100px;
 	text-align: center;
-	background: #A7A6A6;
-	text-decoration-color: #393939;
-	font-size: 20px;
+	background: #6F6A6A;
+	text-decoration-color: #000000;
+	font-size: 40px;
 	border: 1px #464545;
+	-webkit-transition-duration: 0.3s; /* Safari */
+    transition-duration: 0.3s;
 	
 }
 .rsvp-button:hover{
-	background: #DED4D4;
+	background: #D2A4A5;
 	text-decoration-color: #1D1717
 }
 
 /* Pop-up form */
 
-=======
+
 
 div#background {
 }
