@@ -2,8 +2,8 @@
 /* Body */
 body {
 	font-family: source-sans-pro;
-	background-color: #f2f2f2;
-	margin-top: 0px;
+	background-color: #110202;
+	margin-top: 10px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	margin-left: 0px;
@@ -476,4 +476,6 @@ nav ul li {
 	margin-top: 0px;
 	padding-top: 0px;
 }
+}
+.rsvp {
 }
