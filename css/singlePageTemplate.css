@@ -509,9 +509,16 @@ nav ul li {
 	color: #2C9AB7
 }
 
+
+
 .paypalstyle {
 	background: #fff;
+	
 }
+.footer_columnpaypal {
+	margin-top: 30px;
+}
+
 
 /* Pop-up form */
 
