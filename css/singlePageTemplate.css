@@ -486,7 +486,6 @@ nav ul li {
 }
 .rsvpstyle {
 	background-color: #2C9AB7;
-	margin-top: 30px;
 }
 .rsvpstyle h1, h2, h3, h4{
 	text-align: center;
@@ -508,6 +507,10 @@ nav ul li {
 .rsvp-button:hover{
 	background: #717070;
 	color: #2C9AB7
+}
+
+.paypalstyle {
+	background: #fff;
 }
 
 /* Pop-up form */
