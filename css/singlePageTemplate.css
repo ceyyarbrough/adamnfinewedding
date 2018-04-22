@@ -512,7 +512,13 @@ nav ul li {
 
 
 .paypalstyle {
-	background: #fff;
+	background: #FFFFFF;
+	background-color: #FFFFFF;
+	background-image: url(../images/parallax.png);
+	height: 100px;
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
 	
 }
 .footer_columnpaypal {
